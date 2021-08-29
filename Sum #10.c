@@ -1,3 +1,6 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
 
 int main(){
 	int num=15,numA=0
@@ -9,9 +12,10 @@ int main(){
 		}else{
 			if(num=15){
 			res=pow(num^3)
-			printf(" El cubo de %d es: %d\n",num,res);
+			printf("El cubo de %d es: %d\n", num, res);
 		}else{
-			printf("El numero positivo\n")
+			printf("El numero es positivo\n")
+			
 		}
 	}
 	return 0;
